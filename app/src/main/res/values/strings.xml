@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">NotifyMe</string>
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Registration Number</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="title_activity_notice_dashboard">NoticeDashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_create_notice">create_activity</string>
+    <string name="sort_priority">Priority</string>
+    <string name="sort_date">Date of Upload</string>
+    <string name="menu_home">NotifyMe</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="validity">Enter validity period</string>
+
+    <string-array name="scope1">
+        <item>scope</item>
+        <item>Public</item>
+        <item>Department Level</item>
+        <item>Course Level</item>
+        <item>Year Level</item>
+    </string-array>
+
+    <string-array name="scope_values">
+        <item>scope</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="priority">
+        <item>---Select Priority---</item>
+        <item>Low</item>
+        <item>Intermediate</item>
+        <item>High</item>
+    </string-array>
+
+    <string-array name="priority_values">
+        <item>---Select Priority---</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="course">
+        <item>Course</item>
+    </string-array>
+
+    <string-array name="department">
+        <item>Department</item>
+    </string-array>
+
+    <string-array name="year">
+        <item>Year</item>
+        <item>I</item>
+        <item>II</item>
+        <item>III</item>
+        <item>IV</item>
+    </string-array>
+    <string-array name="year_values">
+        <item>Year</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dash"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_notice"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Your Notices" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_accessibility_black_24dp"
+            android:title="Your Profile" />
+        <item
+            android:id="@+id/nav_access"
+            android:icon="@drawable/ic_access_time_black_24dp"
+            android:title="Request Student Access" />
+        <item
+            android:id="@+id/nav_request_status"
+            android:icon="@drawable/ic_history_black_24dp"
+            android:title="View Request Status" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_block_black_24dp"
+            android:title="Logout" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+        </menu>
+    </item>
+
+</menu>
